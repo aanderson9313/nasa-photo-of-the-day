@@ -11,7 +11,7 @@ const PhotoCard = (props) => {
             <h2>
                 {props.date}
             </h2>
-            <img src = {props.url} alt = "NASA Photo of the Day"/>
+            <img src = {props.url} alt = "NASA POTD"/>
         <div>
             <h3>
                 Explanation
