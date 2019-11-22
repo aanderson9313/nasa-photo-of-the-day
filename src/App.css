@@ -2,7 +2,7 @@
   text-align: center;
   background: darkblue;
   color: white;
-  border: 2px solid white;
+  border: 2px dotted white;
 
 }
 
@@ -36,6 +36,12 @@
   border: 2px dotted red;
   border-radius: 45%;
 
+}
+
+.Nasa-exp {
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
 
 
