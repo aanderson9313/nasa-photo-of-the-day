@@ -10,7 +10,7 @@ const NasaCard = styled.div `
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: white; 
 `;
 
 const NasaLogo = styled.div `
@@ -21,8 +21,8 @@ const NasaLogo = styled.div `
 
 const NasaImg = styled.img `
     display: flex;
-    align-content: center;
-    justify-content: center;
+    align-content: left;
+    justify-content: left;
     height: 20%;
     width: 50%;
     border: 2px dotted red;
@@ -41,7 +41,14 @@ const NasaExp = styled.div `
     font-size: 16px;
 `;
 
-
+const LinkButton = styled.button`
+    color: #61dafb;
+    background: #003366;
+    margin-top: 2%;
+    border: 1px solid black;
+    border-radius: 5%;
+    font-size: 2rem;
+`;
 
 const PhotoCard = (props) => {
     console.log(NasaCard);
@@ -59,8 +66,8 @@ const PhotoCard = (props) => {
                 <h2>
                     {props.date}
                 </h2>
-                <a href = "" target = "_blank" />
                 <NasaImg src = {props.url} alt = "NASA POTD"/>
+                <LinkButton>Click Me! </LinkButton>
                 <NasaExp>
                     <h3>
                         Explanation
